@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_menu_news"
+            android:title="Новости" />
+
+        <item
+            android:id="@+id/photo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Фото" />
+        <item
+            android:id="@+id/spravka"
+            android:icon="@drawable/ic_menu_spravk"
+            android:title="Справочная" />
+        <item
+            android:id="@+id/grafik"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="График работы" />
+        <item
+            android:id="@+id/onas"
+            android:icon="@drawable/ic_menu_onas"
+            android:title="О нас" />
+
+
+    </group>
+
+    <item android:title="Настройки">
+        <menu>
+            <item
+                android:id="@+id/sendem"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Связаться" />
+
+        </menu>
+    </item>
+
+</menu>
